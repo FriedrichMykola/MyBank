@@ -4,32 +4,33 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center"
-    android:background="@drawable/money"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    android:background="@drawable/money"
+    android:gravity="center"
+    tools:context=".Client_PIN_CODE_Activity">
+
+    <EditText
+        android:id="@+id/edit_code"
+        android:layout_marginHorizontal="40dp"
+        android:textSize="25sp"
+        android:maxLength="4"
+        android:background="@drawable/background_for_edit"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        tools:targetApi="o" />
 
     <Button
         android:id="@+id/button_client"
         android:textSize="30sp"
+        android:layout_marginTop="20dp"
         android:paddingVertical="20dp"
         android:paddingHorizontal="50dp"
         android:textColor="@color/colorWhite"
         android:background="@drawable/background_for_button"
-        android:text="@string/сlient"
+        android:text="@string/sign_in"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         tools:targetApi="o" />
-
-    <Button
-        android:id="@+id/button_employee"
-        android:layout_marginTop="30dp"
-        android:textSize="30sp"
-        android:padding="20dp"
-        android:textColor="@color/colorWhite"
-        android:background="@drawable/background_for_button"
-        android:text="@string/employee"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
 
 </LinearLayout>
