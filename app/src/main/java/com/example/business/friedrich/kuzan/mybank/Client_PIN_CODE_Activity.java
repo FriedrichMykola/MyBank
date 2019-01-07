@@ -18,5 +18,6 @@ public class Client_PIN_CODE_Activity extends AppCompatActivity {
         mEditCode = findViewById(R.id.edit_code);
         mCode = mEditCode.getText().toString();
 
+
     }
 }

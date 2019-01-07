@@ -18,7 +18,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Client_PIN_CODE_Activity"/>
+        <activity android:name=".Client_PIN_CODE_Activity" />
+        <activity android:name=".EmployeePasswordActivity"></activity>
     </application>
 
 </manifest>
